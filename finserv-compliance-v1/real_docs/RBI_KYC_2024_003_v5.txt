@@ -1,0 +1,143 @@
+RESERVE BANK OF INDIA
+MASTER DIRECTION — KNOW YOUR CUSTOMER (KYC)
+RBI/2016-17/23 — As Updated through Circular RBI/2024-25/47
+Version: 2024-v5 | Effective: 1 April 2024
+
+═══════════════════════════════════════════════════════════════
+CHAPTER I — PRELIMINARY
+═══════════════════════════════════════════════════════════════
+
+1. Short Title and Commencement
+These Directions shall be called the Reserve Bank of India (Know Your Customer)
+Directions, 2016, as amended up to 2024, and shall be applicable to all Regulated
+Entities (REs) as defined herein.
+
+2. Definitions
+
+2.1 "Regulated Entity" (RE) means all commercial banks, small finance banks, payment
+banks, cooperative banks, NBFCs, and other financial institutions regulated by RBI.
+
+2.2 "Customer Due Diligence" (CDD) means identifying and verifying the identity of
+the customer and beneficial owner, understanding the nature and purpose of the business
+relationship, and ongoing monitoring of the business relationship.
+
+2.3 "Politically Exposed Person" (PEP) means individuals who are or have been entrusted
+with prominent public functions domestically or by a foreign country, including heads of
+state, senior politicians, senior government or judicial officials, senior executives of
+state-owned corporations, and senior military officials.
+
+2.4 "Beneficial Owner" (BO) means the natural person(s) who ultimately own(s) or
+control(s) a customer and/or the natural person on whose behalf a transaction is
+being conducted; ownership threshold: >25% for companies, >15% for partnerships/trusts.
+
+═══════════════════════════════════════════════════════════════
+CHAPTER II — CUSTOMER DUE DILIGENCE
+═══════════════════════════════════════════════════════════════
+
+3. Customer Acceptance Policy
+
+3.1 Risk-Based Approach
+REs shall adopt a Risk-Based Approach (RBA) to KYC and categorise customers as
+LOW, MEDIUM, or HIGH risk. Enhanced Due Diligence (EDD) is mandatory for HIGH-risk
+customers including:
+  (a) Politically Exposed Persons (PEPs) and their immediate family members;
+  (b) Customers in high-risk countries/jurisdictions as notified by FATF;
+  (c) Customers with complex ownership structures;
+  (d) Non-resident customers.
+
+3.2 Prohibited Accounts
+REs must not open accounts for:
+  (a) Anonymous or fictitious persons;
+  (b) Entities listed under UN sanctions or those on RBI/Government watch lists;
+  (c) Persons/entities for whom CDD cannot be completed.
+
+4. Customer Identification Procedure (CIP)
+
+4.1 Individual Customers
+For individuals, REs must obtain and verify:
+  (a) Officially Valid Document (OVD): Aadhaar / Passport / Driving Licence / Voter ID;
+  (b) Permanent Account Number (PAN) or Form 60 where PAN is not available;
+  (c) Recent photograph.
+
+4.2 Legal Entities
+For companies, trusts, and partnerships, REs must verify:
+  (a) Certificate of incorporation / registration document;
+  (b) Memorandum and Articles of Association;
+  (c) PAN of the entity;
+  (d) Identity and address of beneficial owners (>25% ownership or control).
+
+4.3 Digital KYC
+Video-based Customer Identification Process (V-CIP) is permitted as an alternative to
+in-person verification subject to the technical and procedural requirements prescribed
+in Annex I of these Directions.
+
+5. Periodic Updation
+
+5.1 Re-KYC Frequency
+REs shall undertake periodic updation of KYC records:
+  (a) HIGH-risk customers: every 2 years;
+  (b) MEDIUM-risk customers: every 8 years;
+  (c) LOW-risk customers: every 10 years.
+
+═══════════════════════════════════════════════════════════════
+CHAPTER III — ENHANCED DUE DILIGENCE (EDD)
+═══════════════════════════════════════════════════════════════
+
+6. Politically Exposed Persons (PEPs)
+
+6.1 Mandatory Senior Management Approval
+Accounts of PEPs must be approved by senior management (at least DGM level or equivalent)
+before opening. This requirement applies both to PEPs who are direct customers and those
+who are beneficial owners.
+
+6.2 Source of Funds
+REs must satisfy themselves about the legitimacy of the source of funds for PEP accounts
+and document this assessment in the account file.
+
+6.3 Ongoing Monitoring
+PEP accounts must be subject to enhanced ongoing monitoring including:
+  (a) More frequent transaction reviews;
+  (b) Annual re-assessment of risk classification;
+  (c) Real-time transaction alerts for unusual patterns.
+
+7. Correspondent Banking
+
+7.1 Before Establishing Correspondent Relationships
+REs must obtain sufficient information about the respondent institution to understand
+fully the nature of its business, including:
+  (a) Ownership and management structure;
+  (b) Regulatory status in its home jurisdiction;
+  (c) AML/CFT controls — the RE must not establish or continue correspondent relationships
+      with shell banks.
+
+═══════════════════════════════════════════════════════════════
+CHAPTER IV — RECORD KEEPING AND REPORTING
+═══════════════════════════════════════════════════════════════
+
+8. Record Maintenance
+
+8.1 Transaction Records
+REs must maintain all transaction records for a minimum of five (5) years from the date
+of the transaction. Records must be sufficient to reconstruct individual transactions and
+provide an audit trail for prosecution where required.
+
+8.2 Customer Identification Records
+KYC records of customers must be maintained for at least five (5) years after the
+business relationship has ended.
+
+9. Suspicious Transaction Reporting (STR)
+
+9.1 Obligation to Report
+REs must report to the Financial Intelligence Unit — India (FIU-IND) any transaction
+that gives rise to reasonable grounds to suspect that it may be related to money
+laundering, financing of terrorism, or any other offence within 7 working days of
+forming that suspicion.
+
+9.2 Tipping-Off Prohibition
+REs and their employees must NOT disclose ("tip off") to the customer or any third party
+that a suspicious transaction report has been filed or is being filed.
+
+═══════════════════════════════════════════════════════════════
+END OF DOCUMENT
+Regulation Family: RBI KYC | Jurisdiction: IN
+Document ID: RBI_KYC_2024_003_v5

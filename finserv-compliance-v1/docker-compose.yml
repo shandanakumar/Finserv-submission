@@ -1,0 +1,90 @@
+version: "3.9"
+
+# ============================================================
+# FinServ Compliance Assistant — Local Dev Stack
+#
+# WHAT'S HERE (and why):
+#   qdrant   — vector store, runs on your machine, data stays local
+#   postgres — agent state + audit log storage
+#   redis    — response cache + escalation queue
+#
+# WHAT'S NOT HERE (vs the Ollama version):
+#   ollama service REMOVED — LLM inference now goes to AWS Bedrock.
+#   You need AWS credentials in your .env for the app to work.
+#
+# HOW TO START:
+#   docker compose up -d
+#   docker compose ps        # check all services are healthy
+#   docker compose logs -f   # watch logs
+#
+# HOW TO STOP + CLEAN:
+#   docker compose down      # stop containers, keep volumes (your data)
+#   docker compose down -v   # stop + DELETE all data (fresh start)
+# ============================================================
+
+networks:
+  compliance-net:
+    driver: bridge
+
+volumes:
+  qdrant_data:
+  postgres_data:
+
+services:
+
+  # ── Qdrant vector store ──────────────────────────────────
+  # REST API on :6333, gRPC on :6334
+  # Dashboard (visual UI): http://localhost:6333/dashboard
+  qdrant:
+    image: qdrant/qdrant:v1.9.2
+    container_name: finserv-qdrant
+    restart: unless-stopped
+    networks: [compliance-net]
+    ports:
+      - "6333:6333"   # REST — your app uses this
+      - "6334:6334"   # gRPC — optional, faster for bulk inserts
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/healthz"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  # ── PostgreSQL ───────────────────────────────────────────
+  # Stores: LangGraph checkpoints, audit logs, transaction records
+  postgres:
+    image: postgres:16-alpine
+    container_name: finserv-postgres
+    restart: unless-stopped
+    networks: [compliance-net]
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: compliance
+      POSTGRES_USER: finserv
+      POSTGRES_PASSWORD: finserv   # local dev only — change in prod
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U finserv -d compliance"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Redis ────────────────────────────────────────────────
+  # Stores: response cache (avoid repeat Bedrock calls for same query)
+  #         human review escalation queue
+  redis:
+    image: redis:7-alpine
+    container_name: finserv-redis
+    restart: unless-stopped
+    networks: [compliance-net]
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

@@ -1,0 +1,114 @@
+{
+  "ingested_at": "2026-06-17T02:28:02Z",
+  "total_chunks": 2932,
+  "documents": [
+    {
+      "doc_id": "BIS_BASEL3_2010_V1",
+      "source": "BASEL",
+      "regulation_family": "BASEL_III",
+      "regulation_id": "BASEL_III",
+      "version": "v1_2010",
+      "status": "superseded",
+      "jurisdiction": "GLOBAL",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 239064,
+      "chunk_count": 336
+    },
+    {
+      "doc_id": "BIS_BASEL3_D424_V2",
+      "source": "BASEL",
+      "regulation_family": "BASEL_III",
+      "regulation_id": "BASEL_III",
+      "version": "v2_2017",
+      "status": "active",
+      "jurisdiction": "GLOBAL",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 560371,
+      "chunk_count": 788
+    },
+    {
+      "doc_id": "FATF RECOMMENDATIONS 2012",
+      "source": "FATF",
+      "regulation_family": "FATF_AML",
+      "regulation_id": "FATF_AML",
+      "version": "v2_2025",
+      "status": "active",
+      "jurisdiction": "GLOBAL",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 386756,
+      "chunk_count": 423
+    },
+    {
+      "doc_id": "MIFID CELEX_32014L0065_EN_TXT",
+      "source": "EU",
+      "regulation_family": "MIFID_II",
+      "regulation_id": "MIFID_II",
+      "version": "v1_2014",
+      "status": "active",
+      "jurisdiction": "EU",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 580681,
+      "chunk_count": 615
+    },
+    {
+      "doc_id": "RBI_KYC_2016_V1",
+      "source": "IN",
+      "regulation_family": "RBI_KYC",
+      "regulation_id": "RBI_KYC",
+      "version": "v1_2016",
+      "status": "superseded",
+      "jurisdiction": "IN",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 266409,
+      "chunk_count": 278
+    },
+    {
+      "doc_id": "RBI_KYC_2024_003_V5",
+      "source": "IN",
+      "regulation_family": "RBI_KYC",
+      "regulation_id": "RBI_KYC",
+      "version": "v1_5_2024",
+      "status": "active",
+      "jurisdiction": "IN",
+      "title": "RESERVE BANK OF INDIA",
+      "char_count": 6027,
+      "chunk_count": 15
+    },
+    {
+      "doc_id": "RBI_KYC_COMMERCIALBANKS_2025_V2",
+      "source": "IN",
+      "regulation_family": "RBI_KYC",
+      "regulation_id": "RBI_KYC",
+      "version": "v2_2025",
+      "status": "active",
+      "jurisdiction": "IN",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 217293,
+      "chunk_count": 230
+    },
+    {
+      "doc_id": "RBI_PSL_2020_V1",
+      "source": "IN",
+      "regulation_family": "RBI_PSL",
+      "regulation_id": "RBI_PSL",
+      "version": "v1_2020",
+      "status": "superseded",
+      "jurisdiction": "IN",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 100686,
+      "chunk_count": 122
+    },
+    {
+      "doc_id": "RBI_PSL_2025_V2",
+      "source": "IN",
+      "regulation_family": "RBI_PSL",
+      "regulation_id": "RBI_PSL",
+      "version": "v2_2025",
+      "status": "active",
+      "jurisdiction": "IN",
+      "title": "REGULATORY TABLES \u2014 KEY TARGETS AND FIGURES",
+      "char_count": 115311,
+      "chunk_count": 125
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+MARKETS IN FINANCIAL INSTRUMENTS DIRECTIVE II (MiFID II)
+Consolidated Reference — Key Compliance Requirements for Investment Firms
+Source: European Securities and Markets Authority (ESMA) / European Commission
+Regulation: Directive 2014/65/EU as amended | Version: 2024-v2 | Effective: 1 March 2024
+
+═══════════════════════════════════════════════════════════════
+TITLE I — CLIENT CLASSIFICATION AND SUITABILITY
+═══════════════════════════════════════════════════════════════
+
+Article 1: Client Classification
+
+1.1 Categories of Clients
+Investment firms must classify clients into one of three categories:
+  (a) Retail Clients — afforded the highest level of protection;
+  (b) Professional Clients per se — meet criteria in Annex II of MiFID II;
+  (c) Eligible Counterparties — lowest protection level; limited to specific entity types.
+
+1.2 Reclassification
+Firms must have documented procedures allowing clients to request reclassification and
+must assess whether the request is appropriate given the client's knowledge and experience.
+
+Article 2: Suitability Assessment
+
+2.1 Obligation to Assess Suitability
+When providing investment advice or portfolio management services, a firm must obtain
+the necessary information regarding the client's:
+  (a) Knowledge and experience in the investment field;
+  (b) Financial situation including ability to bear losses;
+  (c) Investment objectives including risk tolerance.
+
+2.2 Suitability Report
+Firms must provide retail clients with a suitability report prior to (or contemporaneously
+with) executing a recommended transaction. The report must specify how the recommendation
+meets the client's personal circumstances.
+
+2.3 Non-Complex Products — Execution Only
+For non-complex products transacted on a client's own initiative (execution-only),
+the suitability assessment obligation does not apply. However, the firm must:
+  (a) Clearly inform the client that no suitability check is performed;
+  (b) Satisfy itself that the product is non-complex under Article 57 of MiFID II RTS.
+
+2.4 Complex Products — Enhanced Obligations
+For complex products (structured notes, derivatives, funds with leverage), a full suitability
+assessment is MANDATORY for retail clients regardless of service type. Firms must not
+proceed with the transaction if a positive suitability determination cannot be made.
+
+Article 3: Appropriateness Assessment
+
+3.1 Appropriateness for Non-Advised Services
+Where a firm provides services other than investment advice or portfolio management
+in respect of complex products, it must assess whether the client has the necessary
+knowledge and experience to understand the risks.
+
+3.2 Warning Obligation
+If the assessment reveals that the product is not appropriate, the firm must warn the
+client. If the client insists on proceeding, the firm may execute but must document
+the warning given.
+
+═══════════════════════════════════════════════════════════════
+TITLE II — BEST EXECUTION
+═══════════════════════════════════════════════════════════════
+
+Article 4: Best Execution Obligation
+
+4.1 General Requirement
+Investment firms must take all sufficient steps to obtain the best possible result for
+clients when executing orders, taking into account:
+  (a) Price;
+  (b) Costs;
+  (c) Speed;
+  (d) Likelihood of execution and settlement;
+  (e) Size, nature, or any other consideration relevant to order execution.
+
+4.2 Best Execution Policy
+Firms must establish and implement a written best execution policy, reviewed at least
+annually, setting out execution venues considered for each class of financial instrument.
+
+4.3 Monitoring and Reporting
+Firms must monitor the effectiveness of their order execution arrangements and publish
+annual reports summarising the top five execution venues per instrument class (RTS 28).
+
+═══════════════════════════════════════════════════════════════
+TITLE III — PRODUCT GOVERNANCE
+═══════════════════════════════════════════════════════════════
+
+Article 5: Product Governance — Manufacturer Obligations
+
+5.1 Target Market Definition
+Manufacturers must identify a target market for each financial product and ensure the
+product is designed to meet the needs of that target market. The target market assessment
+must cover:
+  (a) Type of client (retail, professional, eligible counterparty);
+  (b) Clients' knowledge and experience;
+  (c) Clients' financial situation (ability to bear losses);
+  (d) Clients' risk tolerance;
+  (e) Clients' objectives and needs.
+
+5.2 Negative Target Market
+Manufacturers must also identify categories of clients for whom the product is NOT
+compatible (negative target market) and communicate this to distributors.
+
+Article 6: Product Governance — Distributor Obligations
+
+6.1 Distribution Strategy
+Distributors must understand the product and its identified target market, and implement
+a distribution strategy consistent with that target market. They must not target products
+to clients falling within the negative target market.
+
+6.2 Information Exchange
+Distributors must provide manufacturers with sales data and information on client
+complaints to enable ongoing product review.
+
+═══════════════════════════════════════════════════════════════
+TITLE IV — TRANSACTION REPORTING
+═══════════════════════════════════════════════════════════════
+
+Article 7: Transaction Reporting Obligations
+
+7.1 Scope
+Investment firms must report complete and accurate details of transactions in financial
+instruments admitted to trading on a trading venue to their national competent authority
+(NCA) no later than the close of the following working day (T+1).
+
+7.2 Reportable Fields
+Reports must include at minimum:
+  (a) Trading date and time;
+  (b) Instrument identification (ISIN / AII);
+  (c) Quantity and price;
+  (d) Counterparty and client identification (LEI, national ID);
+  (e) Capacity (agent/principal);
+  (f) Venue of execution.
+
+7.3 LEI Requirement
+Firms must obtain a Legal Entity Identifier (LEI) for all legal entity clients before
+executing a transaction. "No LEI, no trade" is the prevailing ESMA guidance.
+
+═══════════════════════════════════════════════════════════════
+END OF DOCUMENT
+Regulation Family: MiFID II | Jurisdiction: EU
+Document ID: EU_MiFIDII_2024_002_v2

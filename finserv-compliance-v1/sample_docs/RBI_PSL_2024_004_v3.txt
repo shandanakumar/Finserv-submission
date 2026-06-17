@@ -1,0 +1,127 @@
+RESERVE BANK OF INDIA
+MASTER DIRECTION — PRIORITY SECTOR LENDING (PSL)
+RBI/2020-21/25 FIDD.CO.Plan.BC.5/04.09.01/2020-21
+As Updated through Circular RBI/2024-25/61
+Version: 2024-v3 | Effective: 1 April 2024
+
+═══════════════════════════════════════════════════════════════
+CHAPTER I — TARGETS AND SUB-TARGETS
+═══════════════════════════════════════════════════════════════
+
+1. Applicability
+These directions apply to all Scheduled Commercial Banks including Foreign Banks with
+20 branches and above, Small Finance Banks (SFBs), and select NBFCs (NBFC-MFIs,
+NBFC-Factors, HFCs) as applicable.
+
+2. Overall PSL Target
+
+2.1 Domestic Commercial Banks and Foreign Banks (20+ branches)
+Total Priority Sector: 40% of Adjusted Net Bank Credit (ANBC) or Credit Equivalent
+of Off-Balance Sheet Exposure (CEOBSE), whichever is higher.
+
+2.2 Small Finance Banks
+Total Priority Sector: 75% of ANBC.
+
+3. Sub-Targets
+
+3.1 Agriculture
+Agriculture (including allied activities): 18% of ANBC.
+  — Of this, 8% must flow to Small and Marginal Farmers (SMF).
+
+3.2 Micro Enterprises
+Micro Enterprises: 7.5% of ANBC.
+
+3.3 Weaker Sections
+Advances to Weaker Sections: 12% of ANBC.
+Weaker sections include: Small and Marginal Farmers, Artisans, SCs/STs, Self Help
+Groups, Distressed persons, Minority communities, Differently-abled persons.
+
+═══════════════════════════════════════════════════════════════
+CHAPTER II — ELIGIBLE CATEGORIES
+═══════════════════════════════════════════════════════════════
+
+4. Agriculture
+
+4.1 Farm Credit
+Loans to individual farmers and joint liability groups (JLGs) for agriculture and
+allied activities (dairy, fishery, animal husbandry, etc.) including short-term crop
+loans, medium and long-term loans for agricultural purposes.
+Loan limit: Up to ₹2 crore per individual borrower.
+
+4.2 Kisan Credit Card (KCC)
+KCC loans are eligible under the agriculture sub-target.
+
+4.3 MSME — Agriculture Processing
+Loans to MSMEs engaged in food and agro-processing with investment in plant and
+machinery up to ₹50 crore.
+
+5. Micro, Small, and Medium Enterprises (MSME)
+
+5.1 Micro Enterprises
+Loans to micro enterprises (investment ≤ ₹1 crore, turnover ≤ ₹5 crore).
+No loan limit for PSL classification purposes.
+
+5.2 Small Enterprises
+Loans to small enterprises (investment ≤ ₹10 crore, turnover ≤ ₹50 crore).
+Capped at ₹10 crore per borrower for PSL classification.
+
+5.3 Khadi and Village Industries
+All loans to KVI units classified as priority sector without any credit cap.
+
+6. Export Credit
+
+6.1 Incremental export credit over the corresponding date of the preceding year to
+the extent it does not exceed 2% of ANBC is eligible under PSL for banks up to the
+limit of ₹40 crore per borrower.
+
+7. Education
+
+7.1 Loans for educational purposes including vocational courses up to ₹20 lakh
+(₹30 lakh for loans to students for studying abroad) are eligible.
+
+8. Housing
+
+8.1 Housing Loans
+  (a) Loans up to ₹35 lakh in metropolitan centres (population ≥ 10 lakh) where
+      dwelling unit cost does not exceed ₹45 lakh;
+  (b) Loans up to ₹25 lakh in other centres where dwelling unit cost ≤ ₹30 lakh.
+
+8.2 Slum Clearance
+Bank loans for housing projects exclusively for economically weaker sections and
+low-income groups; investment limit: ₹10 lakh per dwelling unit.
+
+═══════════════════════════════════════════════════════════════
+CHAPTER III — REPORTING AND SHORTFALL
+═══════════════════════════════════════════════════════════════
+
+9. Reporting to RBI
+
+9.1 Quarterly Reporting
+Banks must report their PSL achievement to RBI on a quarterly basis in the prescribed
+format (Form A). The reference date for the last quarter of the financial year is
+31 March.
+
+9.2 Annual Certification
+Banks must submit a certificate certified by their statutory auditors regarding PSL
+achievement for the financial year by 30 June each year.
+
+10. Shortfall — Priority Sector Lending Certificates (PSLCs) and RIDF
+
+10.1 PSLC Trading
+Banks with a PSL shortfall may purchase Priority Sector Lending Certificates (PSLCs)
+from banks with surplus through the RBI-operated trading platform (e-Kuber) by the
+last working day of March.
+
+10.2 RIDF Contribution
+Banks with a residual PSL shortfall (after PSLC purchases) must deposit the amount
+in the Rural Infrastructure Development Fund (RIDF) / other funds maintained by NABARD,
+NHB, or SIDBI at below-market interest rates as notified by RBI each year.
+
+10.3 Penalty Interest
+The notional interest foregone on RIDF deposits constitutes the effective penalty for
+non-achievement of PSL targets.
+
+═══════════════════════════════════════════════════════════════
+END OF DOCUMENT
+Regulation Family: RBI PSL | Jurisdiction: IN
+Document ID: RBI_PSL_2024_004_v3

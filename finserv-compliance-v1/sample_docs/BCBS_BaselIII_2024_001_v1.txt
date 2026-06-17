@@ -1,0 +1,131 @@
+BASEL III CAPITAL ADEQUACY FRAMEWORK
+Consolidated Reference — Capital Requirements Regulation (CRR III)
+Source: Bank for International Settlements / Basel Committee on Banking Supervision
+Version: 2024-v1 | Effective: 1 January 2025
+
+═══════════════════════════════════════════════════════════════
+PART I — MINIMUM CAPITAL REQUIREMENTS
+═══════════════════════════════════════════════════════════════
+
+Section 1: Common Equity Tier 1 (CET1) Capital
+
+1.1 Minimum CET1 Ratio
+Banks must maintain a minimum Common Equity Tier 1 (CET1) capital ratio of 4.5% of
+risk-weighted assets (RWAs) at all times. CET1 capital consists primarily of ordinary
+shares and retained earnings that meet the strict eligibility criteria set out in Section 2.
+
+1.2 Capital Conservation Buffer
+In addition to the 4.5% CET1 minimum, banks must hold a Capital Conservation Buffer
+(CCB) of 2.5% of RWAs, composed entirely of CET1 capital. Breaching the buffer triggers
+automatic restrictions on distributions (dividends, share buybacks, discretionary bonuses).
+
+1.3 Total Minimum CET1 Requirement
+When combined, the minimum CET1 requirement including the conservation buffer is 7.0%
+of risk-weighted assets.
+
+Section 2: Additional Tier 1 (AT1) Capital
+
+2.1 Minimum AT1 Requirement
+The minimum Tier 1 capital ratio (CET1 + AT1) is set at 6.0% of RWAs.
+AT1 instruments must meet all of the following criteria:
+  (a) Perpetual with no maturity date;
+  (b) Callable only at the initiative of the issuer, subject to supervisory approval;
+  (c) Dividends/coupons fully discretionary and non-cumulative;
+  (d) Loss absorption through write-down or conversion to common equity at a trigger event
+      (CET1 ratio falling below 5.125%).
+
+Section 3: Tier 2 Capital
+
+3.1 Minimum Total Capital Ratio
+The minimum total capital ratio (Tier 1 + Tier 2) is 8.0% of RWAs.
+Tier 2 instruments must have an original maturity of at least five years and must not
+include any incentive to redeem.
+
+Section 4: Countercyclical Capital Buffer (CCyB)
+
+4.1 Buffer Range
+National authorities may impose a Countercyclical Capital Buffer ranging from 0% to 2.5%
+of RWAs, applicable to banks' domestic credit exposures. The CCyB must be met with CET1
+capital.
+
+═══════════════════════════════════════════════════════════════
+PART II — LARGE EXPOSURES FRAMEWORK
+═══════════════════════════════════════════════════════════════
+
+Section 5: Large Exposure Limits
+
+5.1 General Limit
+A bank's exposure to a single counterparty or group of connected counterparties must not
+exceed 25% of the bank's eligible capital base (Tier 1 capital) at any point in time.
+
+5.2 G-SIB to G-SIB Exposures
+For Global Systemically Important Banks (G-SIBs), the large exposure limit applicable to
+exposures between G-SIBs is tightened to 15% of Tier 1 capital.
+
+5.3 Intra-Group Exposures
+Exposures to group entities are subject to the same 25% Tier 1 limit unless a specific
+intra-group exemption has been granted by the competent authority. Banks must obtain
+supervisory approval before breaching the intra-group sub-limit of 25%.
+
+5.4 Reporting Obligation
+Banks must report to their supervisory authority all large exposures exceeding 10% of
+eligible capital on at least a quarterly basis.
+
+═══════════════════════════════════════════════════════════════
+PART III — LIQUIDITY COVERAGE RATIO (LCR)
+═══════════════════════════════════════════════════════════════
+
+Section 6: LCR Requirements
+
+6.1 Minimum LCR
+Banks must hold an adequate stock of unencumbered High-Quality Liquid Assets (HQLA)
+to survive a significant liquidity stress scenario lasting 30 calendar days. The minimum
+LCR is 100%.
+
+   LCR = Stock of HQLA / Total Net Cash Outflows over 30 days ≥ 100%
+
+6.2 HQLA Classification
+Level 1 assets (cash, central bank reserves, sovereign bonds with 0% risk weight):
+no haircut applied.
+Level 2A assets (sovereign/agency bonds with 20% risk weight): 15% haircut.
+Level 2B assets (certain corporate bonds, equities): 25–50% haircut; capped at 15%
+of total HQLA.
+
+Section 7: Net Stable Funding Ratio (NSFR)
+
+7.1 Minimum NSFR
+Banks must maintain a minimum NSFR of 100% on an ongoing basis.
+
+   NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) ≥ 100%
+
+7.2 Purpose
+The NSFR limits over-reliance on short-term wholesale funding and promotes more stable,
+longer-term funding structures. Supervisors may require a higher ratio for banks with
+elevated structural liquidity risk.
+
+═══════════════════════════════════════════════════════════════
+PART IV — OPERATIONAL RISK
+═══════════════════════════════════════════════════════════════
+
+Section 8: Standardised Approach for Operational Risk (SA)
+
+8.1 Business Indicator Component (BIC)
+From 1 January 2025, the internal-models-based Advanced Measurement Approach (AMA)
+is replaced by the single Standardised Approach. The Business Indicator (BI) is calculated
+as the sum of:
+  (a) Interest, leases, and dividends component;
+  (b) Services component;
+  (c) Financial component.
+
+8.2 Internal Loss Multiplier (ILM)
+Banks with a BI above EUR 1 billion must also apply an Internal Loss Multiplier
+based on their 10-year average annual operational risk losses relative to the BIC.
+The ILM ranges from 1x to 3x.
+
+8.3 Operational Risk Capital Requirement
+   OpRisk RWA = 12.5 × BIC × ILM (where applicable)
+
+═══════════════════════════════════════════════════════════════
+END OF DOCUMENT
+Regulation Family: Basel III | Jurisdiction: Global (BIS)
+Document ID: BCBS_BASELIII_2024_001_v1

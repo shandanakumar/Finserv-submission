@@ -1,0 +1,189 @@
+{
+  "dataset_version": "1.0",
+  "created": "2025-06-01",
+  "description": "Ground truth QA pairs for RAGAS evaluation of the FinServ Regulatory Compliance Assistant",
+  "regulatory_domains": ["Basel_III", "MiFID_II", "RBI"],
+  "notes": "Answers validated against publicly available regulatory texts. Numeric thresholds verified at time of dataset creation. Candidates should note that regulations are updated periodically.",
+  "questions": [
+    {
+      "id": "Q001",
+      "category": "Basel_III_Capital",
+      "question": "What is the minimum Common Equity Tier 1 (CET1) capital ratio required under Basel III?",
+      "ground_truth": "The minimum CET1 capital ratio under Basel III is 4.5% of risk-weighted assets. Banks are also required to maintain a capital conservation buffer of 2.5%, bringing the effective CET1 requirement to 7% under normal conditions.",
+      "relevant_regulations": ["Basel_III_CRE", "BCBS_2017"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "basic"
+    },
+    {
+      "id": "Q002",
+      "category": "Basel_III_Capital",
+      "question": "What is the Leverage Ratio requirement under Basel III and how is it calculated?",
+      "ground_truth": "The Basel III Leverage Ratio is a minimum of 3% for most banks, calculated as Tier 1 Capital divided by the bank's total exposure measure. For Global Systemically Important Banks (G-SIBs), an additional leverage ratio buffer of 50% of their risk-based G-SIB surcharge applies.",
+      "relevant_regulations": ["Basel_III_LEV", "BCBS_2017"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q003",
+      "category": "Basel_III_Liquidity",
+      "question": "What is the Liquidity Coverage Ratio (LCR) under Basel III and what is the minimum requirement?",
+      "ground_truth": "The Liquidity Coverage Ratio (LCR) requires banks to hold sufficient High-Quality Liquid Assets (HQLA) to cover their net cash outflows over a 30-day stress period. The minimum LCR requirement is 100%, meaning HQLA must be at least equal to 30-day net cash outflows.",
+      "relevant_regulations": ["Basel_III_LCR", "BCBS_2013"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "basic"
+    },
+    {
+      "id": "Q004",
+      "category": "Basel_III_Capital",
+      "question": "What is the countercyclical capital buffer (CCyB) under Basel III and who sets it?",
+      "ground_truth": "The Countercyclical Capital Buffer (CCyB) is a macroprudential tool ranging from 0% to 2.5% of risk-weighted assets. It is set by national authorities (not by Basel Committee) based on excess credit growth and systemic risk conditions in their jurisdiction. Banks operating internationally must comply with the weighted average of CCyB requirements across their credit exposures in different countries.",
+      "relevant_regulations": ["Basel_III_CCyB", "BCBS_2010"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q005",
+      "category": "MiFID_II_Best_Execution",
+      "question": "What are the best execution obligations for investment firms under MiFID II?",
+      "ground_truth": "Under MiFID II Article 27, investment firms must take all sufficient steps to obtain the best possible result for their clients when executing orders. This considers total consideration (price plus costs), speed, likelihood of execution and settlement, size, nature, and any other relevant consideration. Firms must establish and implement an order execution policy and obtain prior client consent. For retail clients, best execution is determined primarily by total consideration.",
+      "relevant_regulations": ["MiFID_II_Art27", "ESMA_2017_RTS_27"],
+      "jurisdiction": "EU",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q006",
+      "category": "MiFID_II_Product_Governance",
+      "question": "What are the product governance requirements for manufacturers under MiFID II?",
+      "ground_truth": "Under MiFID II Article 16(3) and the Delegated Directive, manufacturers must maintain, operate and review a product approval process for each financial instrument and structured deposit. The process must identify the target market, assess all relevant risks, ensure the instrument is compatible with the target market's needs and objectives, and ensure the distribution strategy is appropriate. Manufacturers must regularly review products and make information available to distributors.",
+      "relevant_regulations": ["MiFID_II_Art16", "ESMA_2017_Guidelines_PG"],
+      "jurisdiction": "EU",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "Q007",
+      "category": "MiFID_II_Suitability",
+      "question": "Under MiFID II, what information must a firm collect to assess suitability for investment advice?",
+      "ground_truth": "Under MiFID II Article 25(2), firms providing investment advice or portfolio management must obtain information about: (1) the client's knowledge and experience in the investment field relevant to the specific type of product or service; (2) the client's financial situation including ability to bear losses; and (3) the client's investment objectives including risk tolerance. This information enables the firm to recommend services and instruments that are suitable for the client.",
+      "relevant_regulations": ["MiFID_II_Art25", "ESMA_Suitability_Guidelines_2018"],
+      "jurisdiction": "EU",
+      "difficulty": "basic"
+    },
+    {
+      "id": "Q008",
+      "category": "RBI_KYC",
+      "question": "What are the KYC requirements for non-individual customers under RBI's Master Direction on KYC?",
+      "ground_truth": "Under RBI's Master Direction on KYC (2016, updated 2023), non-individual customers must submit: proof of identity and address of the entity (registration certificate, certificate of incorporation), partnership deed/trust deed as applicable, resolution of managing body for opening account, power of attorney granted to transact on its behalf, and beneficial ownership identification for all persons holding 10% or more ownership/controlling interest. Regulated entities must also identify the natural persons who are ultimate beneficial owners.",
+      "relevant_regulations": ["RBI_KYC_Master_Direction_2016", "RBI_KYC_Amendment_2023"],
+      "jurisdiction": "IN",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q009",
+      "category": "RBI_Priority_Sector",
+      "question": "What is the priority sector lending target for domestic scheduled commercial banks under RBI guidelines?",
+      "ground_truth": "Under RBI's Priority Sector Lending (PSL) guidelines, domestic scheduled commercial banks and foreign banks with 20 or more branches must achieve a total PSL target of 40% of Adjusted Net Bank Credit (ANBC) or Credit Equivalent of Off-Balance Sheet Exposures (CEOBE), whichever is higher. Sub-targets include Agriculture (18% of ANBC), Small and Marginal Farmers (10% of ANBC), and Weaker Sections (12% of ANBC).",
+      "relevant_regulations": ["RBI_PSL_Master_Direction_2020"],
+      "jurisdiction": "IN",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q010",
+      "category": "RBI_FEMA",
+      "question": "What are the reporting requirements for cross-border transactions under FEMA regulations?",
+      "ground_truth": "Under FEMA 1999 and RBI's Master Directions, all transactions involving receipt or payment of foreign exchange must be reported through Authorised Dealers (ADs). Specific requirements include: Export declarations (EDF/SDF forms), import payments above specified thresholds, External Commercial Borrowings (ECB) through ECB-2 returns, Foreign Direct Investment through FC-GPR and FC-TRS forms. ADs must report to RBI through the Online Returns Filing System (ORFS). Failure to report attracts penalties under FEMA Section 13.",
+      "relevant_regulations": ["FEMA_1999", "RBI_FEMA_Master_Direction_2023"],
+      "jurisdiction": "IN",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "Q011",
+      "category": "Transaction_Screening",
+      "question": "A cross-border wire transfer of $2.5 million is being sent to an entity in Iran that has not completed KYC. What regulations apply and what actions are required?",
+      "ground_truth": "This transaction triggers multiple regulatory frameworks: (1) FATF Recommendation 6 requires enhanced due diligence and transaction reporting for countries on the FATF high-risk list; Iran is FATF-blacklisted. (2) US OFAC sanctions prohibit most US-dollar transactions with Iranian entities without specific licenses. (3) EU Common Foreign and Security Policy sanctions apply. (4) RBI FEMA regulations require AD banks to verify counterparty KYC before completing cross-border payments. Required actions: Block the transaction immediately; file a Suspicious Activity Report (SAR) within 24 hours; do not tip off the counterparty; escalate to MLRO; contact legal counsel regarding OFAC license requirements.",
+      "relevant_regulations": ["FATF_R6", "OFAC_Iran_Sanctions", "RBI_FEMA", "EU_Sanctions"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "Q012",
+      "category": "Transaction_Screening",
+      "question": "An NBFC wants to classify a lending transaction as Priority Sector Lending for agriculture. The loan is Rs. 50 lakhs to a farmer for purchase of a tractor. Does this qualify?",
+      "ground_truth": "Under RBI's PSL Master Direction 2020, loans to farmers for purchase of agricultural implements and machinery including tractors qualify as agriculture loans under PSL. Individual loans up to Rs. 2 crore (Rs. 20 million) to farmers for agricultural purposes qualify. A Rs. 50 lakh loan for tractor purchase is within this threshold and qualifies for PSL classification under Agriculture - Direct Finance category, provided the borrower is a farmer (cultivating land, not just owning land).",
+      "relevant_regulations": ["RBI_PSL_Master_Direction_2020"],
+      "jurisdiction": "IN",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q013",
+      "category": "Basel_III_Large_Exposures",
+      "question": "What is the large exposure limit under Basel III for a bank's exposure to a single counterparty?",
+      "ground_truth": "Under the Basel III Large Exposures Framework (BCBS 2014), a bank's exposure to a single counterparty (or group of connected counterparties) must not exceed 25% of the bank's eligible capital base (Tier 1 capital). For exposures between Global Systemically Important Banks (G-SIBs), the limit is reduced to 15% of eligible capital. These limits apply to the sum of all exposure values after credit risk mitigation.",
+      "relevant_regulations": ["Basel_III_LEX", "BCBS_2014_Large_Exposures"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q014",
+      "category": "MiFID_II_Transparency",
+      "question": "What are the pre-trade transparency requirements for equity instruments under MiFID II?",
+      "ground_truth": "Under MiFID II Articles 3 and 8, trading venues and systematic internalisers must make public current bid and offer prices and the depth of trading interests at those prices for equity and equity-like instruments. This applies to shares, depositary receipts, ETFs, certificates, and similar instruments. Waivers are available for: large-in-scale orders, reference price waivers, negotiated transaction waivers, and orders held in an order management facility. Competent authorities can grant these waivers subject to ESMA review.",
+      "relevant_regulations": ["MiFID_II_Art3", "MiFID_II_Art8", "MiFIR_RTS1"],
+      "jurisdiction": "EU",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "Q015",
+      "category": "RBI_Digital",
+      "question": "What are the regulatory requirements for a Payment Aggregator (PA) under RBI guidelines?",
+      "ground_truth": "Under RBI's Master Direction on Payment Aggregators and Payment Gateways (2020, updated 2023), Payment Aggregators must: (1) Obtain RBI authorisation (non-bank PAs); (2) Maintain minimum net-worth of Rs. 25 crore by March 2025 and Rs. 100 crore by March 2026; (3) Maintain settlement accounts only with scheduled commercial banks; (4) Conduct merchant KYC/due diligence; (5) Maintain grievance redressal mechanism; (6) Adhere to data storage requirements (all payment data stored in India); (7) Submit periodic reports to RBI.",
+      "relevant_regulations": ["RBI_PA_PG_Master_Direction_2020"],
+      "jurisdiction": "IN",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q016",
+      "category": "Basel_III_OpRisk",
+      "question": "What is the Standardised Approach for Operational Risk under Basel III (effective 2023)?",
+      "ground_truth": "The Basel III Standardised Approach for Operational Risk (SA), which replaced the previous approaches (BIA, TSA, ASA) from January 2023, requires banks to calculate operational risk capital requirements using the Business Indicator Component (BIC) and the Internal Loss Multiplier (ILM). The Business Indicator (BI) is derived from three components: Interest, Leases and Dividends (ILDC); Services (SC); and Financial (FC). The ILM is based on a bank's historical losses averaged over 10 years, with a floor of 1 for smaller banks.",
+      "relevant_regulations": ["Basel_III_OPR", "BCBS_2017_OpRisk"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "Q017",
+      "category": "AML_CFT",
+      "question": "What are the FATF recommendations regarding Politically Exposed Persons (PEPs)?",
+      "ground_truth": "FATF Recommendation 12 requires financial institutions to implement enhanced due diligence (EDD) for Politically Exposed Persons (PEPs). For foreign PEPs, EDD is mandatory. For domestic PEPs and international organisation PEPs, firms must apply a risk-based approach. EDD measures include: obtaining senior management approval to establish or continue business relationships with PEPs; taking reasonable measures to establish the source of wealth and funds; conducting enhanced ongoing monitoring. PEP status applies to the individual and their immediate family members and close associates.",
+      "relevant_regulations": ["FATF_R12_2023", "FATF_Guidance_PEPs"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "Q018",
+      "category": "MiFID_II_Reporting",
+      "question": "What are the transaction reporting obligations under MiFID II Article 26?",
+      "ground_truth": "Under MiFID II Article 26, investment firms must report complete and accurate details of transactions in financial instruments to their national competent authority (NCA) no later than the close of the following working day. Reports must include: instrument identification (ISIN), trading date and time, quantity and price, buyer and seller identification (using Legal Entity Identifier (LEI) for entities, national ID or concatenated code for individuals), venue of execution, and trader identification. Reports are submitted via Approved Reporting Mechanisms (ARMs) or directly to NCAs.",
+      "relevant_regulations": ["MiFID_II_Art26", "RTS_22_Transaction_Reporting"],
+      "jurisdiction": "EU",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "Q019",
+      "category": "Basel_III_Credit_Risk",
+      "question": "Under Basel III Standardised Approach for Credit Risk, what is the risk weight for unrated corporate exposures?",
+      "ground_truth": "Under the revised Basel III Standardised Approach for Credit Risk (effective January 2023, BCBS December 2017), unrated corporate exposures receive a risk weight of 100%, subject to specific due diligence requirements. However, if the bank applies the due diligence requirements and determines the obligor has an adequate capacity to meet its financial commitments, the risk weight may remain at 100%. If the bank determines the obligor has a higher risk profile, a risk weight of 150% applies. Rated corporate exposures follow a risk weight table based on external credit ratings (20% to 150%).",
+      "relevant_regulations": ["Basel_III_CRE20", "BCBS_2017_SA_CR"],
+      "jurisdiction": "GLOBAL",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "Q020",
+      "category": "Cross_Jurisdictional",
+      "question": "A cross-border derivative trade between an EU bank and an Indian NBFC triggers what regulatory obligations simultaneously?",
+      "ground_truth": "A cross-border OTC derivative trade between an EU entity and Indian NBFC triggers obligations under multiple frameworks simultaneously: (1) EU - MiFID II Article 26 transaction reporting to NCA within T+1; EMIR reporting to trade repository; clearing obligation if applicable; (2) India - RBI ECB guidelines if it constitutes a borrowing; FEMA regulations for cross-border payments; if the NBFC is a systemically important NBFC, RBI derivative guidelines apply; (3) Both parties - FATF AML/CFT due diligence on counterparty; BCBS large exposure limits if the exposure exceeds thresholds; ISDA Master Agreement typically governs documentation. Jurisdiction conflicts may arise on netting enforceability and collateral requirements.",
+      "relevant_regulations": ["MiFID_II_Art26", "EMIR", "RBI_FEMA_Master_Direction", "RBI_Derivative_Guidelines", "FATF_Recommendations"],
+      "jurisdiction": "MULTI",
+      "difficulty": "advanced"
+    }
+  ]
+}
