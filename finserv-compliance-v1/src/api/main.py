@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from config.settings import settings
-from src.agent.compliance_agent import FallbackComplianceAgent, ComplianceAgentState
+from src.agent.compliance_agent import FallbackComplianceAgent,build_compliance_agnet, ComplianceAgentState
 
 logging.basicConfig(
     level=logging.INFO,
@@ -93,7 +93,7 @@ async def startup_event():
     global _agent
     logger.info("Starting Compliance Assistant...")
     try:
-        _agent = FallbackComplianceAgent()
+        _agent = build_compliance_agent()
         logger.info("Compliance agent loaded successfully")
     except Exception as e:
         logger.error(f"Failed to initialize agent: {e}")
